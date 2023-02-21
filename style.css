@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 247, 247);
+    margin: 0;
+} 
+
+    
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 600px;
+}
+
+.Field {
+    font-size: 23px;
+    height: 200px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    color: #bbb9b9;
+    text-shadow: 1px 1px  #000;
+    user-select: none;
+    flex-direction: column;
+    text-align: center;
+    line-height: 8.5em;
+    background: #e2ded8;
+    border: 5px solid rgb(185, 202, 250);
+    border-style: dashed;
+    border-radius: 20px;
+}
+    
+
